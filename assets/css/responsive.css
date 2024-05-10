@@ -1,0 +1,250 @@
+/* Desktop */
+@media (max-width: 1280px) {
+    html {
+      font-size: 13px;
+    }
+}
+@media (max-width: 1050px) {
+    html {
+      font-size: 12.5px;
+    }
+    .home__img img {
+      margin-top: 8.5rem;
+      margin-right: 20rem;
+    }
+    .home__content h3 {
+      font-size: 2.5rem;
+    }
+    .home__content h1 {
+      font-size: 3.5rem;
+    }
+}
+  
+/* Tablet */
+@media (max-width: 835px) {
+    .header__logo {
+      font-size: 2.5rem;
+    }
+  
+    #menu-icon {
+      display: block;
+      font-size: 2.5rem;
+    }
+    .header__navbar {
+      display: flex;
+      gap: 2.5rem;
+      flex-direction: column;
+      position: absolute;
+      top: 11rem;
+      right: 0;
+      font-size: 25px;
+      width: 100%;
+      box-shadow: 6px 6px 12px #1f242d, -6px -6px 12px #1f242d;
+      background: #323946;
+      min-width: 300px;
+      height: 30rem;
+      text-align: center;
+      border-radius: 0.2rem;
+      padding: 3rem 0;
+      z-index: 9999999;
+      visibility: hidden;
+      opacity: 0;
+      transition: var(--transition);
+    }
+    .active {
+      top: 5rem;
+      visibility: visible;
+      opacity: 1;
+    }
+    .header__navbar a {
+      font-size: 20px;
+    }
+    .home {
+      flex-direction: column-reverse;
+    }
+    .home__img img {
+      width: 55vw;
+      margin-top: -10rem;
+      margin-left: 18rem;
+      margin-bottom: 0;
+    }
+    .home__content {
+      margin-top: -15rem;
+      text-align: center;
+    }
+    .home__content h1 {
+      font-size: 4rem;
+      line-height: 1.5;
+    }
+    .home__content h3 {
+      font-size: 3rem;
+    }
+    .home__content-social-media a {
+      width: 5.5rem;
+      height: 5.5rem;
+      margin-left: 1rem;
+      margin-bottom: 2.5rem;
+      font-size: 2.5rem;
+    }
+    .home__content-btn,
+    .about__content-btn,
+    .expertise__container-box-btn,
+    .contact__btn {
+      margin-top: 1.5rem;
+      font-size: 2rem;
+    }
+    .about {
+      flex-direction: column;
+    }
+    .about__img img {
+      width: 44vw;
+    }
+    .about__content,
+    .about__content h2,
+    .about__content h3,
+    .about__content p {
+      text-align: center;
+    }
+    .about__content p {
+      font-size: 1.3rem;
+    }
+    .expertise__container-box {
+      flex: 100rem;
+    }
+    .expertise__container-box p {
+      font-size: 1.3rem;
+    }
+  
+    .portfolio__container {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 3rem;
+      height: 700px;
+    }
+    .portfolio__container-box-layer p {
+      font-size: 1.3rem;
+    }
+    .contact form {
+      max-height: 70rem;
+    }
+    .contact {
+      margin-bottom: -4.5rem;
+    }
+    .contact__input-box input,
+    .contact form textarea {
+      font-size: 1.5rem;
+    }
+    .contact form textarea {
+      height: 30rem;
+    }
+}
+  
+@media (max-width: 770px) {
+    .home__img img {
+      width: 50vw;
+    }
+    .home__content h1 {
+      font-size: 3rem;
+      line-height: 1.5;
+    }
+    .home__content h3 {
+      font-size: 2.5rem;
+    }
+}
+  
+  /* Mobile */
+@media (max-width: 430px) {
+    .header__logo {
+      font-size: 1.8rem;
+    }
+    #menu-icon {
+      font-size: 2rem;
+    }
+  
+    .home__img {
+      margin-top: 8rem;
+      margin-right: -3.5rem;
+    }
+    .home__img img {
+      width: 65vw;
+    }
+    .home__content h1 {
+      font-size: 2rem;
+    }
+    .home__content h3 {
+      font-size: 1.6rem;
+    }
+    .home__content-social-media {
+      margin-left: 1rem;
+      margin-bottom: -1rem;
+    }
+    .home__content-social-media a {
+      width: 3.5rem;
+      height: 3.5rem;
+      margin-left: 0.8rem;
+      font-size: 2rem;
+    }
+    .home__content-btn,
+    .about__content-btn,
+    .expertise__container-box-btn,
+    .contact__btn {
+      font-size: 1.5rem;
+    }
+  
+    .about__img img {
+      width: 45vw;
+      margin-top: -10rem;
+    }
+    .about__content p {
+      font-size: 1rem;
+    }
+    .expertise-box p {
+      font-size: 1rem;
+    }
+    .portfolio__container {
+      grid-template-columns: repeat(1, 1fr);
+      height: 1600px;
+      gap: 1.4rem;
+    }
+    .contact__input-box input,
+    .contact form textarea {
+      font-size: 1rem;
+    }
+    .contact form textarea {
+      height: 20rem;
+    }
+    .footer-text p {
+      font-size: 0.9rem;
+    }
+}
+@media (max-width: 390px) {
+    .home__content h1 {
+      line-height: 2;
+    }
+    .home__content h3 {
+      font-size: 1.4rem;
+    }
+    .home__content-social-media a {
+      margin-left: 0.1rem;
+      font-size: 1.6rem;
+    }
+    .home__content-btn,
+    .about__content-btn,
+    .expertise__container-box-btn,
+    .contact__btn {
+      font-size: 1.2rem;
+    }
+    .contact form textarea {
+      height: 15rem;
+    }
+    .contact form .btn {
+      margin-top: 1.3rem;
+      font-size: 1.2rem;
+    }
+    .footer__text p {
+      font-size: 0.8rem;
+    }
+    .footer__iconTop a i {
+      font-size: 1rem;
+    }
+}
+  
